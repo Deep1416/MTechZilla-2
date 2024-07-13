@@ -144,7 +144,7 @@ const Index = () => {
                       } rounded-xl py-5`}
                     >
                       <button
-                        className="px-2 ml-2 rounded-lg text-sm bg-gray-400 py-2 flex items-center gap-2"
+                        className=" mb-2 px-2 ml-2 rounded-lg text-sm bg-gray-400 py-2 flex items-center gap-2"
                         onClick={() => setNotFound(false)}
                       >
                         <IoIosArrowRoundBack className="text-2xl" />
