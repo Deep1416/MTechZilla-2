@@ -19,7 +19,7 @@ GitHub Finder is a web application that allows you to search for GitHub users an
 
 To get a local copy up and running follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/Deep1416/MTechZilla-2
 
 2. Install dependencies:
 
