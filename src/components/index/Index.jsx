@@ -106,7 +106,7 @@ const Index = () => {
                     />
                     <button
                       className={`px-1 sm:px-6 bg-${
-                        theme === "dark" ? "[#f5f5f5]" : "[#333333]"
+                        theme === "dark" ? "[#fff]" : "[#333333]"
                       } text-${
                         theme === "dark" ? "black" : "white"
                       } py-2 rounded-r-lg sm:font-semibold`}
