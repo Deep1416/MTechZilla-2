@@ -105,8 +105,8 @@ const Index = () => {
                       onChange={(e) => setUsername(e.target.value)}
                     />
                     <button
-                      className={`px-1 sm:px-6 bg-${
-                        theme === "dark" ? "[#fff]" : "[#333333]"
+                      className={` px-1 sm:px-6 bg-${
+                        theme === "dark" ? "white" : "[#333333]"
                       } text-${
                         theme === "dark" ? "black" : "white"
                       } py-2 rounded-r-lg sm:font-semibold`}
