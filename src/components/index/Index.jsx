@@ -65,7 +65,7 @@ const Index = () => {
         theme === "dark" ? "bg-black" : "bg-white"
       } relative overflow-hidden`}
     >
-      <div className="absolute -right-56 sm:-right-72 h-screen">
+      <div className="absolute -right-56 sm:-right-72 h-screen z-10 hidden sm:block">
         <img
           src={getBackgroundImage()}
           alt="Background"
@@ -79,10 +79,10 @@ const Index = () => {
             <div
               className={`text-${
                 theme === "dark" ? "white" : "black"
-              } w-[70%] p-2 sm:p-8 mt-10 sm:mt-20`}
+              } w-[70%] p-2 sm:p-8 mt-10 sm:mt-20 z-50`}
             >
               <div className="w-[80%] mx-auto">
-                <h1 className="text-2xl sm:text-7xl font-bold">
+                <h1 className="text-2xl sm:text-7xl font-bold ">
                   GitHub Finder
                 </h1>
                 <h3 className="text-base sm:text-2xl font-medium my-3 sm:my-6 ml-2">
